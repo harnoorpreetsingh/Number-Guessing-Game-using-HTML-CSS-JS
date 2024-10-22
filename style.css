@@ -1,0 +1,76 @@
+*{
+
+font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+body{
+
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+#submitbtn:hover {
+    transition: all .2s ease-in-out; 
+    transform: scale(1.5); 
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#resetbtn:hover {
+    transition: all .2s ease-in-out; 
+    transform: scale(1.5); 
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.input{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.innercon{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.playarea{
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    gap: 6px;
+    margin-top: 4px;
+    padding: 4px;
+    margin-bottom: px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.att{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

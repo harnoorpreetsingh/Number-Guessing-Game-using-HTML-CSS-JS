@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Number Guessing Game</h1>
+            <div class="innercon">
+                <h2>Try to Guess the number between 1 to 100</h2>
+                <h2>Let's see if your guess aligns with our logic system. </h2>
+                <h3>Note: You're allowed only 10 attempts in one go.</h3><span>(Let's see if you can make it in that.)</span>
+            </div>
+
+
+
+            <div class="playarea">
+                <h2>Enter your Guess in in Textbox given below & click on 'Submit Guess' button:</h2>
+                <span>(Submitting blank Textbox will be considered as an invalid attempt with default value: '0' )</span>
+            <input type="text" class="input" name="" id="input" maxlength="3" placeholder="Enter your Guess">
+            <button id="submitbtn">Submit Guess</button>
+            <button class="resetbtn" id="resetbtn">Restart the Game</button>
+        </div>
+        <div class="att">
+            <h2>No. of attempts made: <span id="atts"></span></h2>
+            <h2>Your Guess was: <span id="feedback"></span></h2>
+        </div>
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
