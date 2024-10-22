@@ -60,6 +60,8 @@ function checkValue(val, randomValue, count) {
         if (val == randomValue) {
             feedback.innerText = `${val} - Congratulations, you won in ${count + 1} attempts!`;
             won = true;
+            let submitbtn = document.getElementById("submitbtn");
+            submitbtn.setAttribute("disabled", true);
         } else if ((randomValue - val) > 10) {
             feedback.innerText = `${val} - Too low!`;
         } else if ((val - randomValue) > 10) {
